@@ -10,12 +10,12 @@ Shared seedboxes without root privilege will be supported later. Running script 
 This script will also setup configuration, including systemd service and WebUI password.  
 
 ```shell
-bash <(wget -qO- --no-check-certificate https://github.com/Aniverse/qbittorrent-nox-static/raw/master/install.sh) \
+bash <(wget -qO- --no-check-certificate https://github.com/LevineWoo/qbittorrent-nox-static/raw/master/install.sh) \
 -u <username> -p <webui password> -w <webui port> -v <version>
 ```
 For example: 
 ```shell
-bash <(curl -Ls https://github.com/Aniverse/qbittorrent-nox-static/raw/master/install.sh) -u aniverse -p only4test \
+bash <(curl -Ls https://github.com/LevineWoo/qbittorrent-nox-static/raw/master/install.sh) -u aniverse -p only4test \
 -w 8080 -v 4.2.3.lt.1.1.14
 ```
 
